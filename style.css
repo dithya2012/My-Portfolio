@@ -1,0 +1,182 @@
+/* https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539 */
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-color: #ede0d4;
+    text-align: center;
+    font-family: "Amatic SC", sans-serif;
+    
+}
+
+
+.menu{
+    background-color: #f4ede7;
+    left: 0;
+    top:0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    height: 30px;
+    opacity: 1;
+    /* padding-left: 100px; */
+
+
+}
+
+
+.link{
+    display: inline;
+    padding-left: 100px;
+    padding-right: 100px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black !important;
+}
+
+#name{
+    text-align: left;
+    padding-left: 150px;
+    font-size: 48;
+    letter-spacing: 2px;
+    
+}
+#intro h2{
+    text-align: justify;
+    letter-spacing: 2px;
+    padding-left: 150px;
+    padding-right: 50px;
+}
+
+#main{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 150px;
+}
+
+#intro{
+    flex: 1;
+    margin-right: 10px;
+
+}
+
+#images{
+    flex:none;
+    padding-right: 150px;
+    padding-top: 50px;
+}
+
+#images img{
+    width: 400px;
+    height: auto;
+ 
+ 
+    border-radius: 30px;
+}
+#hobbies{
+    padding-top: 150px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black !important;
+
+}
+
+a:visited{
+    text-decoration: none;
+    color: black !important;
+
+}
+#contact a{
+    padding: 70;
+    padding-top: 70;
+    padding-bottom: 100;
+}
+i:hover{
+    scale: 1.1;
+}
+#projectintro h4{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 22px;
+   
+    
+}
+#projectintro{
+    padding-top:100px;
+}
+.projectsbutton{
+    background-color: #ddb892;
+    padding:10px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#buttoncontainer{
+    padding-top: 20px;
+    
+}
+.game img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.game{
+    padding: 20px;
+    animation: bg 4s ;
+    margin-bottom: 5px;
+}
+
+.games{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-top: 100px;
+   padding-left: 20px;
+   padding-right: 20px;
+    
+
+}
+
+@keyframes bg{
+    0%{
+        background-color: #786858;
+    }
+    100%{
+        background-color: #ede0d4;
+    }
+}
+#name{
+    animation: slidein 2s ;
+}
+
+@keyframes slidein{
+    0%{
+        transform: translateX(-100%) ;
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+#intro1{
+    opacity: 0;
+    animation: Fade 5s forwards; 
+}
+@keyframes Fade{
+    from{
+        opacity: 0;
+
+    }
+    to{
+        opacity: 1;
+    }
+}
+
